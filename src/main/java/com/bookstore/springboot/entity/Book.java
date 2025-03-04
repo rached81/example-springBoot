@@ -25,10 +25,9 @@ public class Book {
     private String genre;
     
 
-    // Default constructor
     public Book() {}
 
-    // Parameterized constructor
+
     public Book(Long id, String title, String author, String description, String genre) {
         this.id = id;
         this.title = title;
@@ -77,4 +76,5 @@ public class Book {
     public void setGenre(String genre) {
         this.genre = genre;
     }
+    
 }
